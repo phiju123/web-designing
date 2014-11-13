@@ -1,0 +1,35 @@
+<style>
+ban1{
+		display: block;
+		text-align:center;
+	}
+ban1 ul{
+			margin: 0;
+			padding: 0;
+			list-style:none;
+		}
+.ban1{	
+			list-style-type: none;
+	}
+.ban1 li{
+			display: block;
+			text-decoration:none;
+			letter-spacing:2px;
+			padding: 0.5em 1.8em;
+			font-size: 90%;
+			background: grey;
+			color: white;
+			text-transform: titlecase;
+		}
+.ban1{  
+	position: relative;
+	left: -25px;
+    vertical-align: top; 
+	float: center;
+	z-index: 99;
+  }
+			
+			
+
+	
+</style>

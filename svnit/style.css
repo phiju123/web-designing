@@ -1,0 +1,44 @@
+<style>
+
+nav1 {
+		display: block;
+		text-align: center;
+	}
+nav1 ul{
+		margin: 0;
+		padding: 0;
+		list-style: none
+	}
+.nav1{
+		position:relative;
+		left: -40px;
+		list-style-type: none;
+		}
+.nav1 a{
+		display:block;
+		background: grey;
+		color:white;
+		text-decoration: none;
+		text-transform : titlecase;
+		font-size:90%;
+		padding: 0.4em 1.8em;
+		letter-spacing:2px;
+	}
+.nav1{
+		display: inline-block;
+    }
+.nav1 li {
+		position:relative;
+	}
+.nav1 > li {
+			margin-bottom: 1px;
+			border-bottom: 1px #aaa solid;
+		}
+.nav1 > li:hover , .nav1 > li:hover >a{  border-bottom-color:orange;}
+  .nav1 li:hover > a { 
+				color:orange;
+			}
+
+		
+	
+</style>
